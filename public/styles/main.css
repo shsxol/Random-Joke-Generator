@@ -3,9 +3,9 @@
 }
  
 body{
-    margin: 0;
+    margin: 16px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Nunito' , sans-serif;
 }
 
 .meme-container{
@@ -27,8 +27,24 @@ img{
 .author{
     margin-bottom: 0;
 }
+button{
+    border: none;
+    font: inherit;
+    padding: 8px 12px;
+    background-color:#069179;
+    color: white;
+    width: 100%;
+    max-width: 440px;
+    border-radius: 8px;
+    
+    cursor: pointer;
+}
+button:active{
+    background-color: #057c68;
+}
 
 img{
     width: 100%;
     border-radius: 8px;
+    margin: 8px 0;
 }
